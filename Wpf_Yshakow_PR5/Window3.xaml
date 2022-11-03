@@ -6,7 +6,21 @@
         xmlns:local="clr-namespace:Wpf_Yshakow_PR5"
         mc:Ignorable="d"
         Title="Window3" Height="450" Width="800">
-    <Grid>
-        
+    <Grid Background="AliceBlue">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.5*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"/>
+            <RowDefinition Height="5" />
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Background="White" Grid.Row="1" Grid.ColumnSpan="2"></Grid>
+        <TextBox BorderBrush="#FF8BA1BB" BorderThickness="2" Grid.ColumnSpan="3" Background="#FF4F81BD" FontSize="25" Foreground="White" >Menu: Load Case / Save / New Case</TextBox>
+        <Frame Grid.Column="0" Grid.Row="2" Source="Page6.xaml" Margin="15"
+               BorderBrush="#FF8BA1BB" BorderThickness="2" Background="#FF4F81BD"></Frame>
+        <Frame Grid.Column="1" Grid.Row="2" Source="Page7.xaml" Margin="15"
+               BorderBrush="#FF8BA1BB" BorderThickness="2" Background="#FF4F81BD"></Frame>
     </Grid>
 </Window>

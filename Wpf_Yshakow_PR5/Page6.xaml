@@ -9,6 +9,22 @@
       Title="Page6">
 
     <Grid>
-        
+        <StackPanel Margin="5">
+            <TextBlock Margin="2" HorizontalAlignment="Center" FontSize="20" Foreground="White">
+                -Case 1 <Hyperlink NavigateUri="page6.xaml"></Hyperlink>
+            </TextBlock>
+            <TextBlock Margin="2" HorizontalAlignment="Center" FontSize="20" Foreground="White">
+                -Case 2 <Hyperlink NavigateUri="page6.xaml"></Hyperlink>
+            </TextBlock>
+            <TextBlock Margin="2" HorizontalAlignment="Center" FontSize="20" Foreground="White">
+                -Case 3 <Hyperlink NavigateUri="page6.xaml"></Hyperlink>
+            </TextBlock>
+            <TextBlock Margin="2" HorizontalAlignment="Center" FontSize="20" Foreground="White">
+                -Case 4 <Hyperlink NavigateUri="page6.xaml"></Hyperlink>
+            </TextBlock>
+            <TextBlock Margin="2" HorizontalAlignment="Center" FontSize="20" Foreground="White" >
+                -Case 5 <Hyperlink NavigateUri="page6.xaml"></Hyperlink>
+            </TextBlock>
+        </StackPanel>
     </Grid>
 </Page>

@@ -9,6 +9,11 @@
       Title="Page7">
 
     <Grid>
-        
+        <TextBlock Margin="2" HorizontalAlignment="Left" FontSize="20" Foreground="White">
+                Edit Case 1 <Hyperlink NavigateUri="page7.xaml"></Hyperlink>
+        </TextBlock>
+        <TextBox Height="30" Width="80" HorizontalAlignment="Left" Margin="15,0,0,200" FontSize="15"  >TextBox1</TextBox>
+        <TextBox Height="30" Width="80" HorizontalAlignment="Left" Margin="115,0,0,200" FontSize="15">TextBox2</TextBox>
+        <Grid Width="350" Height="150" Background="White" HorizontalAlignment="Left" Margin="15,50,0,0" ></Grid>
     </Grid>
 </Page>
