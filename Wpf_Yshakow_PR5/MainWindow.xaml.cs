@@ -39,7 +39,8 @@ namespace Wpf_Yshakow_PR5
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-
+            Window3 window3 = new Window3();
+            window3.Show();
         }
 
         private void Button_Click_3(object sender, RoutedEventArgs e)

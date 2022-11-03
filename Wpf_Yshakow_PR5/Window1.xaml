@@ -12,7 +12,7 @@
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
         <TextBlock TextWrapping="Wrap" Margin="5">
-        Данная страница находтся в окконом приложении
+        Данная страница находится в окконом приложении
         </TextBlock>
         <Frame Grid.Column="1" Source="Page1.xaml" Margin="3"
                BorderBrush="LimeGreen" BorderThickness="2"></Frame>
