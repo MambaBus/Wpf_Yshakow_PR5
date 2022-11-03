@@ -7,10 +7,14 @@
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="Page1">
-
+ 
     <StackPanel Margin="5">
         <Label Margin="5">Пример обычный страницы</Label>
+        <TextBlock Margin="5">
+        Это обычная сстраница. А это <Hyperlink NavigateUri="page2.xaml">Ссылка на другую страницу!</Hyperlink>
+        </TextBlock>
         <Button Margin="5,0,5,0" Padding="5">ОК</Button>
         <Button Padding="5" Margin="5">Close</Button>
     </StackPanel>
+    
 </Page>
