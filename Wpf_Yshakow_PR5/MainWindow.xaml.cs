@@ -45,7 +45,8 @@ namespace Wpf_Yshakow_PR5
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
-
+            Window4 window4 = new Window4();
+            window4.Show();
         }
 
         private void Button_Click_4(object sender, RoutedEventArgs e)
