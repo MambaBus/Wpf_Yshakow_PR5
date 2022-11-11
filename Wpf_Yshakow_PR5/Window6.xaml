@@ -1,0 +1,66 @@
+﻿<Window x:Class="Wpf_Yshakow_PR5.Window6"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_Yshakow_PR5"
+        mc:Ignorable="d"
+        Title="Window6" Height="450" Width="800">
+    <Grid Background="#FF36353A">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="180"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="35"/>
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <TextBlock Grid.ColumnSpan="2" Background="#FF768697"></TextBlock>
+        <StackPanel>
+            <TabControl>
+                <TabItem Header="Настройка сети" Height="35" Width="85" FontSize="10" />
+                <TabItem Header="Настройка МД" Height="35" Width="85" FontSize="10"/>
+            </TabControl>
+        </StackPanel>
+
+        <GroupBox Header="Настройки сети" Grid.Row="1" Grid.Column="0"  Foreground="White" Visibility="Visible" >
+            <StackPanel>
+                <Border BorderBrush="White" BorderThickness="1" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10">
+                    <TextBlock  Text="Найти Мд " Height="22" HorizontalAlignment="Center" Width="100" TextAlignment="Center" Background="#FF36353A" Foreground="White"  />
+                </Border>
+
+                <Border BorderBrush="White" BorderThickness="1" HorizontalAlignment="Center" VerticalAlignment="Center" Background="White" Margin="10">
+                    <TextBlock  TextWrapping="Wrap" Text="Изменить IP адрес " Height="35" HorizontalAlignment="Center" Width="100" TextAlignment="Center" Background="#FF36353A" Foreground="White"  />
+                </Border>
+
+                <Border BorderBrush="White" BorderThickness="1" HorizontalAlignment="Center" VerticalAlignment="Center" Background="White" Margin="10">
+                    <TextBlock  Text="Подключить " Height="22" HorizontalAlignment="Center" Width="100" TextAlignment="Center" Background="#FF36353A" Foreground="White"  />
+                </Border>
+
+                <Border BorderBrush="White" BorderThickness="1" HorizontalAlignment="Center" VerticalAlignment="Center" Background="White" Margin="10">
+                    <TextBlock TextWrapping="Wrap" Text="Сменить СМА Пароль " Height="35" HorizontalAlignment="Center" Width="100" TextAlignment="Center" Background="#FF36353A" Foreground="White"  />
+                </Border>
+
+                <Border BorderBrush="White" BorderThickness="1" HorizontalAlignment="Center" VerticalAlignment="Center" Background="White" Margin="10">
+                    <TextBlock TextWrapping="Wrap" Text="Изменить Объект и Место " Height="35" HorizontalAlignment="Center" Width="100" TextAlignment="Center" Background="#FF36353A" Foreground="White"  />
+                </Border>
+
+                <Border BorderBrush="White" BorderThickness="1" HorizontalAlignment="Center" VerticalAlignment="Center" Background="White">
+                    <TextBlock TextWrapping="Wrap" Text="Изменить Дату    и Время " Height="35" HorizontalAlignment="Center" Width="100" TextAlignment="Center" Background="#FF36353A" Foreground="White"  />
+                </Border>
+
+                <Border BorderBrush="White" BorderThickness="1" HorizontalAlignment="Center" VerticalAlignment="Center" Background="White" Margin="10">
+                    <TextBlock TextWrapping="Wrap" Text="Добавить ДМ" Height="22" HorizontalAlignment="Center" Width="100" TextAlignment="Center" Background="#FF36353A" Foreground="White"  />
+                </Border>
+                
+                <Border BorderBrush="White" BorderThickness="1" HorizontalAlignment="Center" VerticalAlignment="Center" Background="White">
+                    <TextBlock TextWrapping="Wrap" Text="Переместить ДМ" Height="22" HorizontalAlignment="Center" Width="100" TextAlignment="Center" Background="#FF36353A" Foreground="White"  />
+                </Border>
+
+            </StackPanel>
+        </GroupBox>
+
+        <GroupBox Header="МД в сети" Grid.Row="1" Grid.Column="1"  Foreground="White"  >
+        </GroupBox>
+    </Grid>
+</Window>
