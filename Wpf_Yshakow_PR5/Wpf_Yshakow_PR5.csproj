@@ -58,6 +58,9 @@
     <Compile Include="Page10.xaml.cs">
       <DependentUpon>Page10.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Page11.xaml.cs">
+      <DependentUpon>Page11.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Page3.xaml.cs">
       <DependentUpon>Page3.xaml</DependentUpon>
     </Compile>
@@ -117,6 +120,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Page10.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page11.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
