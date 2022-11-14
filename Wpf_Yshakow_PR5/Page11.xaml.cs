@@ -24,5 +24,14 @@ namespace Wpf_Yshakow_PR5
         {
             InitializeComponent();
         }
+
+        class ADRESS
+        {
+            public int CH { get; set; }
+            public string DATE { get; set; }
+            public string LOGINFROM { get; set; }
+            public string THEM { get; set; }
+
+        }
     }
 }

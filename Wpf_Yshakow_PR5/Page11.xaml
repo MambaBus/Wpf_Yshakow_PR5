@@ -7,8 +7,30 @@
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="Page11">
-
     <Grid>
-        
+        <DataGrid x:Name="dt" HorizontalAlignment="Left" Height="400" Width="700">
+            <DataGrid.Resources>
+                <Style TargetType="{x:Type DataGridColumnHeader}" >
+                    <Setter Property="Background" Value="#FF012394" ></Setter>
+                    <Setter Property="Foreground" Value="White"></Setter>
+                    <Setter Property="BorderThickness" Value="0.5"></Setter>
+                    <Setter Property="BorderBrush" Value="White"></Setter>
+                    <Setter Property="Height" Value="70"></Setter>
+                    <Setter Property="HorizontalContentAlignment" Value="Center"></Setter>
+                </Style>
+
+            </DataGrid.Resources>
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Место" Width="80" Binding="{Binding M}"/>
+                <DataGridTextColumn Header="Точка" Width="80" Binding="{Binding T}"/>
+                <DataGridTextColumn Header="Серийный номер" Width="80" Binding="{Binding CH}"/>
+                <DataGridTextColumn Header="IP адрес" Width="80" Binding="{Binding IP}"/>
+                <DataGridTextColumn Header="MAC адрес" Width="80" Binding="{Binding MAC}" />
+                <DataGridTextColumn Header="Состояние подключения" Binding="{Binding CP}"/>
+                <DataGridTextColumn Header="Дата и время Детектора" Binding="{Binding DATA}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
     </Grid>
 </Page>
