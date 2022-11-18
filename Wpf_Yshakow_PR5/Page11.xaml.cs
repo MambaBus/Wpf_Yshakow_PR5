@@ -23,15 +23,30 @@ namespace Wpf_Yshakow_PR5
         public Page11()
         {
             InitializeComponent();
+
+            Table1 tb1 = new Table1();
+            tb1.Место = "Вход офис";
+            tb1.Точка = "У двери";
+            tb1.Серийныйномер = "55484403";
+            tb1.IPадрес = "192.168.201.09";
+            tb1.MACадрес = "00:00:33:22:22:00";
+            tb1.Состояниеподключения = "Подключено";
+            tb1.ДатаивремяДетектора = "24.04.04";
+
+            dt.Items.Add(tb1);
+
         }
 
-        class ADRESS
+        public class Table1
         {
-            public int CH { get; set; }
-            public string DATE { get; set; }
-            public string LOGINFROM { get; set; }
-            public string THEM { get; set; }
-
+            public string Место { get; set; }
+            public string Точка { get; set; }
+            public string Серийныйномер { get; set; }
+            public string IPадрес { get; set; }
+            public string MACадрес { get; set; }
+            public string Состояниеподключения { get; set; }
+            public string ДатаивремяДетектора { get; set; }
         }
     }
 }
+
