@@ -1,0 +1,39 @@
+﻿<Window x:Class="Wpf_Yshakow_PR5.Window8"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf_Yshakow_PR5"
+        mc:Ignorable="d"
+        Title="Window8" Height="450" Width="800">
+
+    <Grid Background="#FF0D2738">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="10*"/>
+        </Grid.ColumnDefinitions>
+
+        <ListBox Background="{x:Null}" >
+            <ListBoxItem>
+                <Image Source="photo/1.png" Width="50" Height="50" MouseUp="Image_MouseUp"/>
+            </ListBoxItem>
+
+            <ListBoxItem>
+                <Image Source="photo/2.png" Width="50" Height="50" MouseUp="Image_MouseUp_1"/>
+            </ListBoxItem>
+
+            <ListBoxItem>
+                <Image Source="photo/6.png" Width="50" Height="50" MouseUp="Image_MouseUp_2"/>
+            </ListBoxItem>
+
+            <ListBoxItem>
+                <Image Source="photo/5.png" Width="50" Height="50" MouseUp="Image_MouseUp_3"/>
+            </ListBoxItem>
+
+            <ListBoxItem>
+                <Image Source="photo/4.png" Width="50" Height="50" MouseUp="Image_MouseUp_4"/>
+            </ListBoxItem>
+        </ListBox>
+        <Frame x:Name="fon1" Grid.Column="1" Source="Page13.xaml" Background="#FFEAEBEC"/>
+    </Grid>
+</Window>

@@ -61,6 +61,27 @@
     <Compile Include="Page11.xaml.cs">
       <DependentUpon>Page11.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Page12.xaml.cs">
+      <DependentUpon>Page12.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page13.xaml.cs">
+      <DependentUpon>Page13.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page14.xaml.cs">
+      <DependentUpon>Page14.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page15.xaml.cs">
+      <DependentUpon>Page15.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page16.xaml.cs">
+      <DependentUpon>Page16.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page17.xaml.cs">
+      <DependentUpon>Page17.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Page18.xaml.cs">
+      <DependentUpon>Page18.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Page3.xaml.cs">
       <DependentUpon>Page3.xaml</DependentUpon>
     </Compile>
@@ -103,6 +124,9 @@
     <Compile Include="Window7.xaml.cs">
       <DependentUpon>Window7.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Window8.xaml.cs">
+      <DependentUpon>Window8.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -124,6 +148,34 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Page11.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page12.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page13.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page14.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page15.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page16.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page17.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Page18.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -187,6 +239,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Window8.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Page1.xaml.cs">
@@ -234,6 +290,21 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Снимок5.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="photo\5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="photo\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="photo\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="photo\4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="photo\6.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

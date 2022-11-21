@@ -66,5 +66,11 @@ namespace Wpf_Yshakow_PR5
             Window7 window7 = new Window7();
             window7.Show();
         }
+
+        private void Button_Click_7(object sender, RoutedEventArgs e)
+        {
+            Window8 window8 = new Window8();
+            window8.Show();
+        }
     }
 }
